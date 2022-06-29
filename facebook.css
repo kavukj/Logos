@@ -60,3 +60,10 @@ body{
     border-right: 20px solid royalblue;
     border-bottom: 10px solid royalblue;
 }
+
+.text{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2.5rem;
+    font-family: "Times new roman",sans-serif;
+}

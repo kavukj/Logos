@@ -1,0 +1,70 @@
+body{
+    padding-top: 20px;
+    background-color:whitesmoke;
+    opacity:1;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    background-color:#3AC371;
+    box-shadow: 0px 0px 20px gray;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    transform: rotate(-90deg);
+}
+
+.white{
+    position: absolute;
+    top: -15px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 15px solid white;
+}
+
+.white::before{
+    position: absolute;
+    left: -40px;
+    top: -27px;
+    content:"";
+    position: absolute;
+    transform: rotate(42deg);
+    border-style: solid;
+    border-width: 35px;
+    border-color: transparent white transparent transparent;
+}
+
+
+.white::after{
+    position: absolute;
+    top: -10px;
+    left: -20px;
+    content: "";
+    border-style: solid;
+    border-width: 30px;
+    border-color: transparent #3AC371 transparent transparent;
+    transform: rotate(42deg);
+}
+
+.phone{
+    color: white;
+    font-size: 6em;
+    transform: rotate(90deg);
+    position: absolute;
+    top: 80px;
+}
+
+.label{
+    margin-top: 30px;
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: 'Franklin Gothic', sans-serif;
+}
